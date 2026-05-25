@@ -1,15 +1,22 @@
 {
-  "name": "@workspace/api-client-react",
-  "version": "0.0.0",
+  "name": "battle-game",
+  "version": "1.0.0",
   "private": true,
   "type": "module",
-  "exports": {
-    ".": "./src/index.ts"
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "dependencies": {
-    "@tanstack/react-query": "catalog:"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "@tanstack/react-query": "^5.0.0",
+    "framer-motion": "^11.0.0",
+    "wouter": "^3.0.0"
   },
-  "peerDependencies": {
-    "react": ">=18"
+  "devDependencies": {
+    "vite": "^5.0.0",
+    "@vitejs/plugin-react": "^4.0.0"
   }
 }
