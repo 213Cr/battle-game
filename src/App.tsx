@@ -1,3 +1,3 @@
 export default function App() {
-  return <div>Battle App</div>;
+  return <div>teat</div>;
 }
